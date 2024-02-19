@@ -10,3 +10,4 @@ if __name__ == "__main__":
     png_file_path = sys.argv[1]
     jpg_file_path = sys.argv[2]
     convert_png_to_jpg(png_file_path, jpg_file_path)
+    print("image saved!")
